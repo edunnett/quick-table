@@ -55,9 +55,7 @@ html {
 .navbar-nav,
 .navbar-nav>li,
 .td_head,
-.vera_emptyString {
-  float: left
-}
+
 
 .fill {
   min-height: 100%
@@ -112,7 +110,6 @@ html {
 #table_pnl,
 #tree_pnl {
   background-color: #E8E8E8;
-  float: left;
   width: 50%
 }
 
@@ -204,7 +201,8 @@ p {
 }
 
 table {
-  font-size: 100% border-collapse: collapse;
+  font-size: 100%;
+  border-collapse: collapse;
 }
 
 ol.tree {
@@ -342,22 +340,6 @@ li input:checked+ol>li:last-child {
 
 .navbar-nav>li>a {
   padding: 15px
-}
-
-.navbar-nav.navbar-right {
-  float: right
-}
-
-.navbar .navbar-nav .open .dropdown-menu {
-  position: absolute;
-  float: left;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border: 1px solid rgba(0, 0, 0, .15);
-  border-width: 0 1px 1px;
-  border-radius: 0 0 4px 4px;
-  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, .175)
 }
 
 .navbar-default .navbar-nav .open .dropdown-menu>li>a {
